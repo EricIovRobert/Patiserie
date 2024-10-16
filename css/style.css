@@ -121,7 +121,22 @@ ol {
 .text-white a {
   color: #fff;
 }
+.ceva2{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.ceva3{
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.ceva4{
+  margin-bottom: 0.3rem;
+}
+.ceva5{
+  margin-bottom: 2rem;
 
+  
+}
 /* buttons */
 .primary-btn {
   display: inline-block;
