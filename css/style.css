@@ -1284,6 +1284,10 @@ ol {
 .breadcrumb-option {
   padding-top: 60px;
 }
+.breadcrumb-option .row{
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
 
 .breadcrumb__text h2 {
   font-size: 50px;
@@ -1719,6 +1723,7 @@ ol {
   padding-top: 44px;
   margin-bottom: 0;
 }
+
 
 /*---------------------
   Related Products
@@ -3363,6 +3368,9 @@ ol {
 }
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px) {
+  .breadcrumb-option .row{
+    border: none;
+  }
   .canvas__open {
     display: block;
     font-size: 22px;
@@ -3601,11 +3609,13 @@ ol {
     top: 0;
     margin-left: 0;
     width: 200px;
+    padding: 10px 0 0 0;
   }
 
   .header__top__inner {
     height: auto;
     padding: 25px 0;
+    justify-content: flex-start;
 
   }
 
