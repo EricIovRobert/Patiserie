@@ -20,4 +20,6 @@
 
 Poți vizita site-ul live la adresa: [acesta](https://deliciispeciale.ro/)
 
+**Realizat în echipă!**
+
 
